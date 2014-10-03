@@ -7,7 +7,7 @@ Java parser and analyzer of the Netpbm file formats.
 Examples
 =========
 
-1. Reading a PBM file:
+Reading a PBM file:
 
 ```java
 PortableMapFile file = Parser.parse(filename);
@@ -15,13 +15,13 @@ PortableMapFile file = Parser.parse(filename);
 
 The pixel matrix is acessible via the *file.getData()* method, which returns an array of *width * height* Integers
 
-2. Exporting a *PortableMapFile* object to a real image:
+Exporting a *PortableMapFile* object to a real image:
 
 ```java
 Utils.exportImage(file.buildImage(), "png", "file_parsed.png");
 ```
 
-3. Plotting and exporting the histogram
+Plotting and exporting the histogram
 
 ```java
 Map<Integer, Integer> histogram = file.buildHistogram();
