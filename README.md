@@ -33,6 +33,7 @@ Utils.buildHistogramImage(histogram, file.getImageType(), "histogram.png");
 Utils.exportCSV(histogram, "histogram.csv");
 ```
 
+
 Advanced Functions
 =========
 
