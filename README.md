@@ -21,7 +21,7 @@ Exporting a *PortableMapFile* object to a real image:
 Utils.exportImage(file.buildImage(), "png", "file_parsed.png");
 ```
 
-Plotting and exporting the histogram
+Plotting and exporting the histogram:
 
 ```java
 Map<Integer, Integer> histogram = file.buildHistogram();
